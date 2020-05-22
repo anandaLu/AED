@@ -14,5 +14,6 @@ public class PilhaTeste {
         pilha1.push(7);
         pilha1.push(2);
         pilha1.push(1);
+        pilha1.pop();
     }
 }
