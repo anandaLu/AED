@@ -14,6 +14,7 @@ public class PilhaTeste {
         pilha1.push(7);
         pilha1.push(2);
         pilha1.push(1);
+        //Removendo elementos da pilha
         pilha1.pop();
     }
 }

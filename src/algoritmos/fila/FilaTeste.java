@@ -14,7 +14,8 @@ public class FilaTeste {
         fila1.inserir("Mateus");
         fila1.inserir("Júnior");
         fila1.inserir("Thiago");
-       // fila1.inserir("João");
+
+        //Removendo elementos da fila
         fila1.remover();
     }
 }
