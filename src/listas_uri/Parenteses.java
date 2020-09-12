@@ -30,7 +30,6 @@ public class Parenteses {
 
                //adiciona o valor da variável acima ao vetor 1
                v1.add(arr);
-               System.out.println(v1);
 
            }
            //checa se tem ")" em alguma das posições do array
@@ -41,15 +40,13 @@ public class Parenteses {
 
                //adiciona o valor da variável acima ao vetor 2
                v2.add(arr2);
-               System.out.println(v2);
            }
        }
         /* se um dos vetores for maior que o outro, significa
         *  que a quantidade de parenteses na expressão é desigual.
-        *  Assim, podem existir parenteses de abertura que não têm fechamento, ou
-        *  parenteses de fechamento sem abertura.*/
+        */
 
-        //checa se o vetor um é maior que o vetor dois, ou ao contrário
+        //checa se o vetor um é maior que o vetor dois, ou o contrário
         if(v1.size() > v2.size() || v2.size() > v1.size()){
             System.out.println("Incorreta");
         }
