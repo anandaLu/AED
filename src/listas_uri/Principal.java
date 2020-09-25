@@ -6,7 +6,7 @@ public class Principal {
         //Parenteses par = new Parenteses();
         //par.checarExpressao(")3+b*(2-c)(");
 
-        Diamantes diam = new Diamantes();
-        diam.extrairDiamante("<<<..<......<<<<....>");
+        //Diamantes diam = new Diamantes();
+        //diam.extrairDiamante("<<<..<......<<<<....>");
     }
 }
